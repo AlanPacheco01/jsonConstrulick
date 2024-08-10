@@ -42,6 +42,9 @@
     width: 60px;
     height: 60px;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: darkred;
 }
 #boton--ojo{
@@ -49,6 +52,9 @@
     width: 60px;
     height: 60px;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #store--desc label{
