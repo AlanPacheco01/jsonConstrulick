@@ -1,0 +1,59 @@
+#store--main{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 20px;
+    padding: 20px;
+    font-family: "Montserrat";
+    color: #735F46;
+}
+#store--img{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    max-height: 50%;
+}
+#store--img img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+}
+#store--desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#boton--contactar{
+    background-color: #735F46;
+    font-family: "Montserrat";
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color:#f2f2f2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#boton--corazon{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: darkred;
+}
+#boton--ojo{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+#store--desc label{
+     float: right;
+    color: darkgoldenrod;
+    font-size: 45px;
+}
+
